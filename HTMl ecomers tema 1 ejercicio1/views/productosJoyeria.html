@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Estilo Joyas</h1>
+        <div class="logo">
+            <img src="imagenes/logo_leon.jpg" alt="Logo de la empresa">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productosJoyeria.html">Productos</a></li>
+                <li><a href="presupuesto.html">Presupuesto</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="container-icon"></div>
+        <svg xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="icon-cart">
+            <path 
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263
+            12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125
+            1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375
+            0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+        </svg>
+        <div class="count-productos">
+            <span id="contador-productos">0</span>
+        </div>
+    </header>
+    <div class="container-cart-productos hidden-cart">
+        <div class="row-producto">
+            <div class="cart-producto">
+                <div class="info-cart-producto">
+                    <span class="cantidad-producto-carrito">1</span>
+                    <p class="titulo-producto-carrito">Anillo compromiso</p>
+                    <span class="precio-producto-carrito">180€</span>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="icon-close">
+                    <path 
+                    stroke-linecap="round"      
+                    stroke-linejoin="round"                       
+                    d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </div>
+        </div>
+        <div class="cart-total">
+            <h3>Total:</h3>
+            <span class="total-pagar">200€</span>
+        </div>
+    </div>
+    <div class="container-items">
+        <div class="item">
+            <figure>
+                <img src="imagenes/9k14388-650603_600x.jpg" alt="producto" loading="lazy" width="100" height="100">
+            </figure>
+            <div class="info-producto">
+                <h2>Anillo compromiso</h2>
+                <div class="precio">180€</div>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="imagenes/9k19024_600x.jpg" alt="producto" loading="lazy" width="100" height="100">   
+            </figure>
+            <div class="info-producto">
+                <h2>Anillo oro/plata</h2>
+                <div class="precio">500€</div>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="imagenes/9k19610_2048x.jpg" alt="producto" loading="lazy" width="100" height="100">
+            </figure>
+            <div class="info-producto">
+                <h2>Anillo oro/plata</h2>
+                <div class="precio">120€</div>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="imagenes/41SlEr2L3uL._AC_.jpg" alt="producto" loading="lazy" width="100" height="100">
+            </figure>
+            <div class="info-producto">
+                <h2>Anillo compromiso blanco</h2>
+                <div class="precio">100€</div>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="imagenes/61atekvvKcL._AC_UY1000_.jpg" alt="producto" loading="lazy" width="100" height="100">
+            </figure>
+            <div class="info-producto">
+                <h2>Anillo compromiso oro blanco con diamante</h2>
+                <div class="precio">1100€</div>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="imagenes/61Q8UlAR6HL._AC_UY580_.jpg" alt="producto" loading="lazy" width="100" height="100">
+            </figure>
+            <div class="info-producto">
+                <h2>Anillo compromiso oro blanco</h2>
+                <div class="precio">200€</div>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="imagenes/il_570xN.385738968_n98o.jpg" alt="producto" loading="lazy" width="100" height="100">
+            </figure>
+            <div class="info-producto">
+                <h2>Anillo compromiso oro blanco</h2>
+                <div class="precio">459€</div>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="imagenes/3936791_0.jpg" alt="producto" loading="lazy" width="100" height="100">
+            </figure>
+            <div class="info-producto">
+                <h2>Rreloj Festina/oro</h2>
+                <div class="precio">320€</div>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="redes-sociales">
+            <a href="https://wwww.facebook.com"><img src="iconos_redesSociales/social_facebook_fb_35.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com"><img src="iconos_redesSociales/social_instagram_3.png" alt="Instagram"></a>
+            <a href="https://www.tritter.com"><img src="iconos_redesSociales/social_Twitter_38.png" alt="Twitter"></a>
+        </div>
+        <div class="direccion">
+            C/ Av. Principal, carretera Cadiz, Málaga, España
+        </div>
+        <div class="aviso-legal">
+            Aviso legal: Detalles sobre cómo se almacenan y protegen los datos del usuario.
+        </div>
+    </footer>
+</body>
+</html>
+
+<!--La página web "Estilo Joyas" es un sitio dedicado a la venta de joyas y accesorios. En su encabezado, se destaca el
+    nombre de la empresa y su logotipo, brindando una identidad visual sólida. El menú de navegación permite acceder fácilmente
+    a las diferentes secciones, como "Inicio", "Productos", "Presupuesto" y "Contacto". -->
+
+<!--En la sección principal de la página, se encuentra una selección de productos de joyería, cada uno con su imagen, 
+    título y precio correspondiente. Los usuarios tienen la opción de agregar los productos al carrito de compras con un 
+    simple clic. Además, se muestra un mapa de ubicación de la empresa y los datos de contacto, lo que facilita el acceso 
+    a la información relevante.-->
+
+<!--El pie de página incluye enlaces a las redes sociales de la empresa, como Facebook, Instagram y Twitter, para mantener 
+    una presencia activa en línea. También se muestra la dirección de la empresa y un aviso legal relacionado con la protección 
+    de datos. En general, la página brinda una experiencia intuitiva y atractiva para los usuarios interesados en adquirir joyas de calidad.-->
+ 
